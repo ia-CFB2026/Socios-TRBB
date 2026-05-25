@@ -275,13 +275,7 @@ export default function App() {
                 <th>Teléfono</th>
                 <th>Localidad</th>
                 <th>Contactado por</th>
-                <th>F. Nac.</th>
                 <th>F. Ingreso</th>
-                <th>Doc.</th>
-                <th>N° Doc</th>
-                <th>Calle</th>
-                <th>Número</th>
-                <th>Sexo</th>
                 <th className="col-actions sticky-right">Acciones</th>
               </tr>
             </thead>
@@ -353,24 +347,8 @@ export default function App() {
                     </td>
 
                     {/* Campos solo lectura adicionales */}
-                    <td>{ed[COL.FNAC]}</td>
                     <td>{ed[COL.FINGRESO]}</td>
-                    <td>{ed[COL.TDOC]}</td>
-                    <td>{ed[COL.NDOC]}</td>
-                    <td>
-                      {isEditing
-                        ? <input className="cell-input" value={ed[COL.CALLE] || ""} onChange={e => setEditData(p => ({...p, [COL.CALLE]: e.target.value}))} />
-                        : ed[COL.CALLE]
-                      }
-                    </td>
-                    <td>
-                      {isEditing
-                        ? <input className="cell-input w-60" value={ed[COL.NUMERO] || ""} onChange={e => setEditData(p => ({...p, [COL.NUMERO]: e.target.value}))} />
-                        : ed[COL.NUMERO]
-                      }
-                    </td>
-                    <td>{ed[COL.SEXO]}</td>
-
+                    
                     {/* Acciones sticky */}
                     <td className="col-actions sticky-right">
                       {isEditing ? (
