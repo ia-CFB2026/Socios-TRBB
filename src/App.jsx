@@ -4,7 +4,7 @@ import * as XLSX from "xlsx";
 // ─────────────────────────────────────────────
 // ⚙️  CONFIGURACIÓN — pegar tu URL de Apps Script
 // ─────────────────────────────────────────────
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwMEO3Kcpj7H1Ru1QhC36clLI4ienI0UKg_dOANFrv27nJUJokfJ7Drr2sCgjEoIQDwxw/exec"; // ← pegar URL del deploy aquí
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzAIyaYEwHE6Gb-dhFtRkxvL_ro02VhBNVsXJCR7aRUm_pJKeuEwJqg5chsA6WzuC1Omg/exec"; // ← pegar URL del deploy aquí
 
 // Nombres de columna exactos (con \n real)
 const COL = {
