@@ -4,7 +4,7 @@ import * as XLSX from "xlsx";
 // ─────────────────────────────────────────────
 // ⚙️  CONFIGURACIÓN — pegar tu URL de Apps Script
 // ─────────────────────────────────────────────
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwiv7PM5i986jIqvNPPJVGQxHwQCy5UyLNX_KP0Mdu5G38URK7BBcM-WaEST0l-kR4i/exec"; // ← pegar URL del deploy aquí
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwElg0j7HzaQGn0gJUwrG--0Dx4_2JOuigq3GOyyvVvvPSHqkPzASjX6r3rirasAPLj4w/exec"; // ← pegar URL del deploy aquí
 
 // Nombres de columna exactos (con \n real)
 const COL = {
@@ -30,7 +30,7 @@ const COL = {
 const TIPO_SOCIO_OPTS = ["Activo", "Vitalicio", "Fuerza"];
 const CONTACTADO_OPTS = [
   "Alexis","Claudio","Cristian","Iñaki","Jeronimo",
-  "Juan Manuel","Nestor","Ruben","Santiago","Thiago","Walter"
+  "Juan Manuel","Martin Miguel","Nestor","Ruben","Santiago","Thiago","Walter"
 ];
 const VOTA_OPTS    = ["Si", "No", "No sabe"];
 const AQUIEN_OPTS  = ["Nosotros", "Los otros", "No sabe"];
