@@ -4,7 +4,8 @@ import * as XLSX from "xlsx";
 // ─────────────────────────────────────────────
 // ⚙️  CONFIGURACIÓN — pegar tu URL de Apps Script
 // ─────────────────────────────────────────────
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwElg0j7HzaQGn0gJUwrG--0Dx4_2JOuigq3GOyyvVvvPSHqkPzASjX6r3rirasAPLj4w/exec"; // ← pegar URL del deploy aquí
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxQwJtu11HTN4HaGnbDviyUQbhcWAE3Pd3ZS60jUIvg7cvNKhU_E7E7ii8IAfl0mIu4Xw/exec"; // ← pegar URL del deploy aquí
+const APP_VERSION = "v3.0";
 
 // Nombres de columna exactos (con \n real)
 const COL = {
@@ -175,7 +176,7 @@ export default function App() {
             <span>🎯</span>
             <div>
               <h1>Club de Tiro TFBB</h1>
-              <span className="subtitle">Gestión de Socios</span>
+              <span className="subtitle">Gestión de Socios  ·  <span className="version-tag">{APP_VERSION}</span></span>
             </div>
           </div>
           <div className="header-topbar-right">

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════
-   TFBB Club de Tiro — App Styles v2
+   TFBB Club de Tiro — App Styles v3
    ═══════════════════════════════════════════ */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -71,6 +71,16 @@ html, body, #root {
   font-size: 0.72rem;
   color: var(--text-dim);
   display: block;
+}
+.version-tag {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: .5px;
 }
 
 .header-topbar-right {
